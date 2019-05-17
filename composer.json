@@ -1,0 +1,19 @@
+{
+    "name": "humaon/contact",
+    "description": "A contact from which is sending mail and save the data into database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "humaon",
+            "email": "ehumaonkabir39@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Humaon\\Contact\\": "src/"
+      }
+    }
+}
