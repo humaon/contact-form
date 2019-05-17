@@ -15,5 +15,13 @@
       "psr-4": {
         "Humaon\\Contact\\": "src/"
       }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Humaon\\Contact\\ContactServiceProvider"
+            ]
+
+        }
     }
 }
