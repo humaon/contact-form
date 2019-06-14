@@ -5,23 +5,24 @@
 
 
 
-A simple contact form laravel package to send email to the admin and save into the database
-...
+##A simple contact form laravel package to send email to the admin and save into the database
+
 #Install the package
-
+...
 $ compser require humaon/contact
-
+...
 
 
 #After installing the package run this command
-
+...
 $ php artisan migrate 
-
-
+...
+#
+...
 Then run this command $ php artisan vendor:publish --provider="Humaon\Contact\ContactServiceProvider"
 
-
-
+...
+#
 Then hit the route {base_url}/contact
 
 ...
