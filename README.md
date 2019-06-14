@@ -6,7 +6,7 @@
 
 
 ##A simple contact form laravel package to send email to the admin and save into the database
-
+...
 #Install the package
 ...
 $ compser require humaon/contact
